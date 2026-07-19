@@ -1,27 +1,11 @@
 [
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-01.jpg",
-    "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
-  },
-  {
     "title": "Young People and Education",
     "subtitle": "Supporting students and professionals with education and career guidance.",
     "image": "assets/heritage/youth-01.jpg",
     "alt": "Young People and Education photograph",
     "group": "local",
     "label": "Youth and education"
-  },
-  {
-    "title": "Europe",
-    "subtitle": "International education, travel and mobility across Europe.",
-    "image": "assets/heritage/europe-01.jpg",
-    "alt": "Europe photograph",
-    "group": "europe",
-    "label": "European reach"
   },
   {
     "title": "International Opportunities",
@@ -35,14 +19,6 @@
     "title": "International Opportunities",
     "subtitle": "Education, career and travel opportunities across international destinations.",
     "image": "assets/heritage/international-03.jpg",
-    "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
-  },
-  {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-04.jpg",
     "alt": "International Opportunities photograph",
     "group": "europe",
     "label": "International opportunity"
@@ -136,28 +112,12 @@
     "label": "International opportunity"
   },
   {
-    "title": "Bhakkar",
-    "subtitle": "Education, community and local roots in District Bhakkar.",
-    "image": "assets/heritage/bhakkar-01.jpg",
-    "alt": "Bhakkar photograph",
-    "group": "local",
-    "label": "District Bhakkar"
-  },
-  {
     "title": "Hyderabad Thal",
     "subtitle": "Desert landscape and local heritage from the Thal region.",
     "image": "assets/heritage/hyderabad-thal-01.jpg",
     "alt": "Hyderabad Thal photograph",
     "group": "local",
     "label": "Hyderabad Thal"
-  },
-  {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-16.jpg",
-    "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
   },
   {
     "title": "International Opportunities",
@@ -174,22 +134,6 @@
     "alt": "International Opportunities photograph",
     "group": "europe",
     "label": "International opportunity"
-  },
-  {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-19.jpg",
-    "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
-  },
-  {
-    "title": "Young People and Education",
-    "subtitle": "Supporting students and professionals with education and career guidance.",
-    "image": "assets/heritage/youth-02.jpg",
-    "alt": "Young People and Education photograph",
-    "group": "local",
-    "label": "Youth and education"
   },
   {
     "title": "Young People and Education",
