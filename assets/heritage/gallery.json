@@ -1,146 +1,138 @@
 [
   {
-    "title": "Young People and Education",
-    "subtitle": "Supporting students and professionals with education and career guidance.",
-    "image": "assets/heritage/youth-01.jpg",
+    "title": "Students and young people",
+    "subtitle": "Supporting people as they consider education, career and international opportunities.",
+    "image": "/assets/heritage/youth-01.webp",
     "alt": "Young People and Education photograph",
     "group": "local",
-    "label": "Youth and education"
+    "label": "Education"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-02.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-02.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-03.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-03.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-05.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-05.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-06.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-06.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-07.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-07.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-08.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-08.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-09.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-09.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-10.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-10.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-11.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-11.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-12.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-12.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-13.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-14.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-14.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-15.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-15.jpg",
-    "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
-  },
-  {
-    "title": "Hyderabad Thal",
-    "subtitle": "Desert landscape and local heritage from the Thal region.",
-    "image": "assets/heritage/hyderabad-thal-01.jpg",
+    "title": "The Thal region",
+    "subtitle": "The local communities, landscapes and young people connected with our work.",
+    "image": "/assets/heritage/hyderabad-thal-01.webp",
     "alt": "Hyderabad Thal photograph",
     "group": "local",
-    "label": "Hyderabad Thal"
+    "label": "Local community"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-17.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-17.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "International Opportunities",
-    "subtitle": "Education, career and travel opportunities across international destinations.",
-    "image": "assets/heritage/international-18.jpg",
+    "title": "International education and travel",
+    "subtitle": "A wider view of the places, institutions and opportunities our clients ask about.",
+    "image": "/assets/heritage/international-18.webp",
     "alt": "International Opportunities photograph",
-    "group": "europe",
-    "label": "International opportunity"
+    "group": "international",
+    "label": "International"
   },
   {
-    "title": "Young People and Education",
-    "subtitle": "Supporting students and professionals with education and career guidance.",
-    "image": "assets/heritage/youth-03.jpg",
+    "title": "Students and young people",
+    "subtitle": "Supporting people as they consider education, career and international opportunities.",
+    "image": "/assets/heritage/youth-03.webp",
     "alt": "Young People and Education photograph",
     "group": "local",
-    "label": "Youth and education"
+    "label": "Education"
   }
 ]

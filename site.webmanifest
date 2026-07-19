@@ -1,0 +1,9 @@
+{
+  "name": "IndusBaltic Consultancy",
+  "short_name": "IndusBaltic",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f7fbff",
+  "description": "Education, career, visa and worldwide travel consultancy."
+}
