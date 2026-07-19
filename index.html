@@ -13,6 +13,7 @@
 
   <link rel="stylesheet" href="assets/styles.css">
   <script src="assets/script.js" defer></script>
+  <script src="assets/heritage-gallery.js" defer></script>
 </head>
 
 <body>
@@ -23,7 +24,7 @@
 
   <header class="site-header">
     <nav class="navbar container" aria-label="Main navigation">
-      <a class="brand" href="index.html">
+      <a class="brand" href="/">
         <span class="brand-mark">IBC</span>
         <span class="brand-copy">
           IndusBaltic
@@ -41,7 +42,7 @@
       </button>
 
       <div class="nav-links">
-        <a class="active" href="index.html">Home</a>
+        <a class="active" href="/">Home</a>
         <a href="education.html">Education</a>
         <a href="career.html">Careers</a>
         <a href="visas.html">Visas</a>
@@ -198,6 +199,71 @@
         </div>
       </div>
     </section>
+
+    
+    <section class="heritage-section" id="roots-and-reach">
+      <div class="container">
+        <div class="heritage-heading">
+          <div>
+            <div class="section-label">Our roots and global reach</div>
+
+            <h2>
+              From Hyderabad Thal and Bhakkar to Kraków and Europe
+            </h2>
+
+            <p>
+              IndusBaltic combines local understanding from District Bhakkar
+              with a European presence in Kraków. Our work connects students,
+              young people, families and travellers with international
+              education and travel opportunities.
+            </p>
+          </div>
+
+          <div
+            class="heritage-filters"
+            aria-label="Filter location gallery"
+          >
+            <button
+              class="active"
+              type="button"
+              data-gallery-filter="all"
+              aria-pressed="true"
+            >
+              All
+            </button>
+
+            <button
+              type="button"
+              data-gallery-filter="local"
+              aria-pressed="false"
+            >
+              Pakistan and Thal
+            </button>
+
+            <button
+              type="button"
+              data-gallery-filter="europe"
+              aria-pressed="false"
+            >
+              Poland and Europe
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="heritage-gallery"
+          id="heritageGallery"
+          aria-live="polite"
+        ></div>
+
+        <div class="heritage-disclaimer">
+          Images should be replaced with properly licensed or personally owned
+          photographs before presenting them as documentary photographs of a
+          particular community or location.
+        </div>
+      </div>
+    </section>
+
 
     <section id="services">
       <div class="container">
@@ -492,7 +558,7 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <a class="brand" href="index.html">
+        <a class="brand" href="/">
           <span class="brand-mark">IBC</span>
           <span class="brand-copy" style="color: white;">
             IndusBaltic
