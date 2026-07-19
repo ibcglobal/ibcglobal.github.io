@@ -22,7 +22,7 @@
 
   <header class="site-header">
     <nav class="navbar container">
-      <a class="brand" href="index.html">
+      <a class="brand" href="/">
         <span class="brand-mark">IBC</span>
         <span class="brand-copy">
           IndusBaltic
@@ -33,7 +33,7 @@
       <button class="menu-button" type="button" aria-expanded="false">☰</button>
 
       <div class="nav-links">
-        <a href="index.html">Home</a>
+        <a href="/">Home</a>
         <a href="education.html">Education</a>
         <a href="career.html">Careers</a>
         <a href="visas.html">Visas</a>
@@ -112,36 +112,131 @@
             prepared for IndusBaltic.
           </p>
 
-          <form id="enquiryForm">
+          <form
+            id="enquiryForm"
+            action="https://formsubmit.co/dradilnwaz@gmail.com"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="New IndusBaltic Consultancy website enquiry"
+            >
+
+            <input
+              type="hidden"
+              name="_next"
+              value="https://ibcglobal.github.io/thank-you.html"
+            >
+
+            <input
+              type="hidden"
+              name="_template"
+              value="table"
+            >
+
+            <input
+              type="hidden"
+              name="_captcha"
+              value="false"
+            >
+
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="Thank you for contacting IndusBaltic Consultancy. We have received your enquiry and will review it shortly."
+            >
+
+            <input
+              type="text"
+              name="_honey"
+              tabindex="-1"
+              autocomplete="off"
+              style="display: none;"
+            >
+
             <div class="form-grid">
               <div class="field">
                 <label for="name">Full name</label>
-                <input id="name" name="name" type="text" required>
+                <input
+                  id="name"
+                  name="Full name"
+                  type="text"
+                  autocomplete="name"
+                  required
+                >
               </div>
 
               <div class="field">
                 <label for="email">Email address</label>
-                <input id="email" name="email" type="email" required>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                >
               </div>
 
               <div class="field">
                 <label for="phone">Telephone or WhatsApp</label>
-                <input id="phone" name="phone" type="text">
+                <input
+                  id="phone"
+                  name="Telephone or WhatsApp"
+                  type="tel"
+                  autocomplete="tel"
+                  required
+                >
               </div>
 
               <div class="field">
+                <label for="country">Current country</label>
+                <input
+                  id="country"
+                  name="Current country"
+                  type="text"
+                  autocomplete="country-name"
+                >
+              </div>
+
+              <div class="field full">
                 <label for="service">Service required</label>
 
-                <select id="service" name="service" required>
+                <select id="service" name="Service required" required>
                   <option value="">Choose a service</option>
-                  <option>Education counselling</option>
-                  <option>Career counselling</option>
-                  <option>Visit visa guidance</option>
-                  <option>Airline ticket assistance</option>
-                  <option>Hotel booking</option>
-                  <option>European tour planning</option>
-                  <option>Other enquiry</option>
+                  <option value="Education counselling">
+                    Education counselling
+                  </option>
+                  <option value="Career counselling">
+                    Career counselling
+                  </option>
+                  <option value="Visit visa guidance">
+                    Visit visa guidance
+                  </option>
+                  <option value="Worldwide airline tickets">
+                    Worldwide airline tickets
+                  </option>
+                  <option value="Hotel booking">
+                    Hotel booking
+                  </option>
+                  <option value="European tour planning">
+                    European tour planning
+                  </option>
+                  <option value="Other enquiry">
+                    Other enquiry
+                  </option>
                 </select>
+              </div>
+
+              <div class="field full">
+                <label for="destination">Preferred destination</label>
+
+                <input
+                  id="destination"
+                  name="Preferred destination"
+                  type="text"
+                  placeholder="For example: Poland, Europe, UK, USA or worldwide travel"
+                >
               </div>
 
               <div class="field full">
@@ -149,15 +244,29 @@
 
                 <textarea
                   id="message"
-                  name="message"
-                  placeholder="Tell us your destination, background, intended dates and requirements."
+                  name="Enquiry message"
+                  placeholder="Tell us about your background, destination, intended dates and requirements."
                   required
                 ></textarea>
               </div>
 
               <div class="field full">
+                <label class="consent-label">
+                  <input
+                    type="checkbox"
+                    name="Consent confirmed"
+                    value="Yes"
+                    required
+                  >
+
+                  I agree that IndusBaltic Consultancy may use these details to
+                  respond to my enquiry.
+                </label>
+              </div>
+
+              <div class="field full">
                 <button class="button button-primary" type="submit">
-                  Prepare email enquiry
+                  Send enquiry
                 </button>
               </div>
             </div>
@@ -210,7 +319,7 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <a class="brand" href="index.html">
+        <a class="brand" href="/">
           <span class="brand-mark">IBC</span>
           <span class="brand-copy" style="color: white;">IndusBaltic</span>
         </a>
