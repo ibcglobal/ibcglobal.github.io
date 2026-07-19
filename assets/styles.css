@@ -1397,3 +1397,505 @@ textarea:focus-visible {
     grid-column: auto;
   }
 }
+
+/* BEGIN IBC BLUE GREEN THEME */
+
+/*
+  IndusBaltic colour identity:
+  European Union blue, Pakistan green and white.
+  No decorative stars or crescents.
+*/
+
+:root {
+  --navy-950: #00163f;
+  --navy-900: #003399;
+  --navy-800: #0047ab;
+  --blue-600: #0057b8;
+
+  --green-700: #01411c;
+  --green-600: #087a3e;
+  --green-100: #eaf6ee;
+
+  --blue-100: #edf4ff;
+  --sand-100: #f7f9fc;
+
+  --white: #ffffff;
+  --text: #17324d;
+  --muted: #61758a;
+  --border: #d7e2ef;
+  --amber: #ffffff;
+
+  --shadow-sm: 0 8px 22px rgba(0, 51, 153, 0.08);
+  --shadow-md: 0 18px 45px rgba(0, 51, 153, 0.13);
+}
+
+/* Top registration strip */
+
+.registration-bar {
+  color: #ffffff;
+  background: #003399;
+  border-bottom: 3px solid #087a3e;
+}
+
+.registration-bar strong {
+  color: #ffffff;
+}
+
+/* Logo */
+
+.brand-mark {
+  color: #ffffff;
+  background: linear-gradient(
+    145deg,
+    #003399 0%,
+    #0057b8 52%,
+    #087a3e 100%
+  );
+  box-shadow: 0 9px 22px rgba(0, 51, 153, 0.22);
+}
+
+/* Navigation */
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #003399;
+  border-bottom-color: #087a3e;
+}
+
+.nav-links .nav-cta {
+  color: #ffffff;
+  background: #087a3e;
+}
+
+.nav-links .nav-cta:hover,
+.nav-links .nav-cta.active {
+  color: #ffffff;
+  background: #01411c;
+}
+
+.menu-button {
+  color: #003399;
+  background: #edf4ff;
+}
+
+/* Homepage hero */
+
+.hero {
+  background:
+    radial-gradient(
+      circle at 88% 18%,
+      rgba(255, 255, 255, 0.16),
+      transparent 26%
+    ),
+    radial-gradient(
+      circle at 17% 84%,
+      rgba(8, 122, 62, 0.32),
+      transparent 31%
+    ),
+    linear-gradient(
+      125deg,
+      #00163f 0%,
+      #003399 48%,
+      #0057b8 69%,
+      #01411c 135%
+    );
+}
+
+.hero h1 span {
+  color: #a7f3c7;
+}
+
+.kicker {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.28);
+  background: rgba(1, 65, 28, 0.28);
+}
+
+.kicker::before {
+  background: #ffffff;
+}
+
+.hero-panel {
+  border-color: rgba(255, 255, 255, 0.22);
+  background: rgba(0, 22, 63, 0.3);
+}
+
+/* Buttons */
+
+.button-primary {
+  color: #ffffff;
+  background: #087a3e;
+  box-shadow: 0 10px 24px rgba(1, 65, 28, 0.22);
+}
+
+.button-primary:hover {
+  background: #01411c;
+}
+
+.button-outline:hover {
+  color: #003399;
+  border-color: #003399;
+}
+
+/* Service icons */
+
+.service-icon {
+  color: #003399;
+  background:
+    linear-gradient(
+      135deg,
+      #edf4ff 0%,
+      #edf4ff 52%,
+      #eaf6ee 52%,
+      #eaf6ee 100%
+    );
+}
+
+a.service-card:hover {
+  border-color: rgba(0, 51, 153, 0.42);
+  box-shadow: 0 18px 45px rgba(0, 51, 153, 0.12);
+}
+
+.card-link {
+  color: #003399;
+}
+
+/* Headings and labels */
+
+.section-label {
+  color: #087a3e;
+}
+
+.section-navy {
+  background:
+    radial-gradient(
+      circle at 90% 12%,
+      rgba(8, 122, 62, 0.3),
+      transparent 31%
+    ),
+    linear-gradient(
+      125deg,
+      #00163f,
+      #003399
+    );
+}
+
+.section-navy .section-label {
+  color: #a7f3c7;
+}
+
+/* Page headers */
+
+.page-hero {
+  background:
+    radial-gradient(
+      circle at 88% 15%,
+      rgba(8, 122, 62, 0.35),
+      transparent 28%
+    ),
+    linear-gradient(
+      125deg,
+      #00163f 0%,
+      #003399 65%,
+      #01411c 130%
+    );
+}
+
+.page-hero .breadcrumb {
+  color: #b8d1ff;
+}
+
+/* Visual bridge panel */
+
+.visual-card {
+  background:
+    radial-gradient(
+      circle at 25% 20%,
+      rgba(255, 255, 255, 0.18),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 78% 75%,
+      rgba(8, 122, 62, 0.37),
+      transparent 27%
+    ),
+    linear-gradient(
+      145deg,
+      #00163f,
+      #003399 58%,
+      #01411c
+    );
+}
+
+.experience-badge strong {
+  color: #003399;
+}
+
+/* Checks and process numbers */
+
+.check {
+  background: #087a3e;
+}
+
+.step-number {
+  color: #003399;
+}
+
+/* Information boxes */
+
+.info-box {
+  color: #214b39;
+  border-left-color: #087a3e;
+  background: #eaf6ee;
+}
+
+/* Contact area */
+
+.contact-panel {
+  background:
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(8, 122, 62, 0.36),
+      transparent 31%
+    ),
+    linear-gradient(
+      145deg,
+      #00163f,
+      #003399
+    );
+}
+
+.contact-item small {
+  color: #a7f3c7;
+}
+
+/* Call-to-action band */
+
+.cta-band {
+  background:
+    linear-gradient(
+      115deg,
+      #003399 0%,
+      #0057b8 52%,
+      #087a3e 100%
+    );
+}
+
+/* Footer */
+
+.site-footer {
+  background: #00163f;
+  border-top: 5px solid #087a3e;
+}
+
+.footer-links a:hover {
+  color: #a7f3c7;
+}
+
+/* Pakistan colour mark without star or crescent */
+
+.pk-colour-mark {
+  width: 31px;
+  height: 20px;
+  flex: 0 0 31px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 2px;
+  background:
+    linear-gradient(
+      90deg,
+      #ffffff 0%,
+      #ffffff 25%,
+      #01411c 25%,
+      #01411c 100%
+    );
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.45),
+    0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Keyboard focus */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline-color: rgba(0, 51, 153, 0.42);
+}
+
+/* END IBC BLUE GREEN THEME */
+
+/* Real country and regional flag images */
+
+.flag-image {
+  width: 42px;
+  height: 28px;
+  flex: 0 0 auto;
+  display: block;
+  object-fit: contain;
+  border: 1px solid rgba(0, 22, 63, 0.16);
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: 0 3px 9px rgba(0, 22, 63, 0.14);
+}
+
+.flag-item .flag-image {
+  width: 42px;
+  height: 28px;
+}
+
+.region-card .flag-image {
+  width: 56px;
+  height: 37px;
+  margin-bottom: auto;
+}
+
+.office-card .flag-image {
+  width: 50px;
+  height: 33px;
+  margin-bottom: 19px;
+}
+
+@media (max-width: 680px) {
+  .flag-item .flag-image {
+    width: 46px;
+    height: 31px;
+  }
+
+  .region-card .flag-image {
+    width: 58px;
+    height: 39px;
+  }
+}
+
+/* BEGIN GLOBAL AIRLINE COVERAGE */
+
+.global-coverage {
+  position: relative;
+  overflow: hidden;
+}
+
+.global-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.02fr) minmax(0, 0.98fr);
+  align-items: center;
+  gap: 58px;
+}
+
+.global-grid-reverse .world-visual {
+  order: 2;
+}
+
+.global-grid-reverse .global-copy {
+  order: 1;
+}
+
+.world-visual {
+  position: relative;
+}
+
+.world-visual::before {
+  content: "";
+  position: absolute;
+  inset: 8% -3% -5% 8%;
+  z-index: 0;
+  border-radius: 34px;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 51, 153, 0.12),
+    rgba(8, 122, 62, 0.15)
+  );
+  filter: blur(1px);
+  transform: rotate(-2deg);
+}
+
+.world-visual img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  aspect-ratio: 900 / 560;
+  object-fit: cover;
+  border: 1px solid rgba(0, 51, 153, 0.14);
+  border-radius: 26px;
+  box-shadow: 0 24px 55px rgba(0, 51, 153, 0.18);
+}
+
+.global-copy h2 {
+  max-width: 650px;
+  margin-bottom: 17px;
+  color: var(--navy-900);
+  font-size: clamp(2rem, 4vw, 3.15rem);
+  line-height: 1.1;
+  letter-spacing: -0.045em;
+}
+
+.global-copy > p {
+  color: var(--muted);
+}
+
+.global-region-list {
+  margin: 24px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.global-region-list span {
+  padding: 8px 13px;
+  color: #003399;
+  border: 1px solid rgba(0, 51, 153, 0.16);
+  border-radius: 999px;
+  background: #edf4ff;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.global-region-list span:nth-child(even) {
+  color: #01411c;
+  border-color: rgba(1, 65, 28, 0.16);
+  background: #eaf6ee;
+}
+
+.global-note {
+  padding-left: 14px;
+  border-left: 3px solid #087a3e;
+  font-size: 0.86rem;
+}
+
+@media (max-width: 980px) {
+  .global-grid {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .global-grid-reverse .world-visual,
+  .global-grid-reverse .global-copy {
+    order: initial;
+  }
+
+  .world-visual {
+    max-width: 760px;
+  }
+}
+
+@media (max-width: 680px) {
+  .global-grid {
+    gap: 30px;
+  }
+
+  .world-visual img {
+    border-radius: 19px;
+  }
+
+  .global-region-list {
+    gap: 7px;
+  }
+
+  .global-region-list span {
+    padding: 7px 10px;
+    font-size: 0.72rem;
+  }
+}
+
+/* END GLOBAL AIRLINE COVERAGE */

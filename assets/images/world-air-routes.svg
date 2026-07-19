@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title description">
+  <title id="title">Worldwide airline route illustration</title>
+  <description id="description">A blue and green globe with international airline routes connecting regions around the world.</description>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00163f"/>
+      <stop offset="52%" stop-color="#003399"/>
+      <stop offset="100%" stop-color="#01411c"/>
+    </linearGradient>
+
+    <radialGradient id="globe" cx="38%" cy="30%" r="78%">
+      <stop offset="0%" stop-color="#1674d1"/>
+      <stop offset="100%" stop-color="#003399"/>
+    </radialGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#00112f" flood-opacity=".36"/>
+    </filter>
+
+    <clipPath id="globeClip">
+      <circle cx="450" cy="278" r="190"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="560" rx="36" fill="url(#background)"/>
+
+  <circle cx="112" cy="105" r="75" fill="#ffffff" opacity=".04"/>
+  <circle cx="790" cy="470" r="145" fill="#ffffff" opacity=".035"/>
+  <circle cx="450" cy="278" r="205" fill="#ffffff" opacity=".07"/>
+
+  <g filter="url(#shadow)">
+    <circle cx="450" cy="278" r="190" fill="url(#globe)"/>
+  </g>
+
+  <g clip-path="url(#globeClip)">
+    <g fill="none" stroke="#ffffff" stroke-width="2" opacity=".18">
+      <ellipse cx="450" cy="278" rx="190" ry="66"/>
+      <ellipse cx="450" cy="278" rx="190" ry="125"/>
+      <ellipse cx="450" cy="278" rx="73" ry="190"/>
+      <ellipse cx="450" cy="278" rx="132" ry="190"/>
+      <path d="M260 278H640"/>
+    </g>
+
+    <g fill="#ffffff" opacity=".9">
+      <path d="M278 190l37-28 51-4 32 19 22-5 18 15-9 24-34 8-17 24-27 10-19-16-30 1-20-20z"/>
+      <path d="M393 245l28-9 34 10 21 30-4 35-22 20-10 54-28 41-21-18 8-42-18-34 7-32-13-25z"/>
+      <path d="M468 172l39-22 59 6 40 31 31 5 19 26-25 20-51-5-23 21-29-6-20-31-35-7z"/>
+      <path d="M565 266l42 5 18 26-20 18-41-5-17-20z"/>
+      <path d="M608 350l34 10 17 28-28 25-39-16-7-29z"/>
+      <path d="M331 284l24 23-8 38-20 46-19-13 5-39-15-29z"/>
+      <path d="M632 428l20-8 22 11-13 13-25 1z"/>
+      <path d="M247 251l19-18 24 5-7 18-22 8z"/>
+    </g>
+  </g>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M215 340Q420 50 695 245" stroke="#ffffff" stroke-width="4" stroke-dasharray="8 12" opacity=".86"/>
+    <path d="M245 206Q475 440 708 312" stroke="#8bf0bd" stroke-width="5" stroke-dasharray="10 13" opacity=".92"/>
+    <path d="M305 430Q470 175 635 165" stroke="#ffffff" stroke-width="3.5" stroke-dasharray="7 11" opacity=".7"/>
+    <path d="M185 275Q445 520 748 360" stroke="#8bf0bd" stroke-width="3.5" stroke-dasharray="7 12" opacity=".72"/>
+  </g>
+
+  <g fill="#ffffff">
+    <path d="M205 334l33 4-13 8 3 15-8-2-7-12-14 5z"/>
+    <path d="M690 239l33 4-13 8 3 15-8-2-7-12-14 5z"/>
+    <path d="M704 305l33 4-13 8 3 15-8-2-7-12-14 5z"/>
+  </g>
+
+  <g>
+    <circle cx="215" cy="340" r="8" fill="#8bf0bd"/>
+    <circle cx="695" cy="245" r="8" fill="#ffffff"/>
+    <circle cx="245" cy="206" r="8" fill="#ffffff"/>
+    <circle cx="708" cy="312" r="8" fill="#8bf0bd"/>
+    <circle cx="305" cy="430" r="8" fill="#ffffff"/>
+    <circle cx="635" cy="165" r="8" fill="#8bf0bd"/>
+  </g>
+</svg>
