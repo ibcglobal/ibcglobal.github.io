@@ -1,0 +1,150 @@
+/* FINAL HEADER AND HERO PANEL REPAIRS */
+
+.utility-bar {
+  color: #466174 !important;
+  background: #f5f9fc !important;
+  border-bottom: 1px solid #dce6ed;
+}
+
+.utility-inner {
+  min-height: 38px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
+}
+
+.utility-contact {
+  flex: 0 0 auto;
+  color: #24558d;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.utility-contact:hover {
+  color: #275f46;
+  text-decoration: underline;
+}
+
+/*
+  Prevent the hero background or route illustration
+  from showing through the destination panel.
+*/
+
+.hero-panel {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  color: #243d50 !important;
+  border: 1px solid rgba(53, 105, 168, 0.18) !important;
+  background: #ffffff !important;
+  box-shadow: 0 18px 45px rgba(28, 61, 94, 0.15) !important;
+  backdrop-filter: none !important;
+}
+
+.hero-panel::before,
+.hero-panel::after {
+  display: none !important;
+  content: none !important;
+}
+
+.hero-panel h2 {
+  color: #163d6a !important;
+}
+
+.hero-panel > p {
+  color: #64798a !important;
+}
+
+.flag-grid {
+  position: relative;
+  z-index: 2;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 10px !important;
+}
+
+.flag-item {
+  min-width: 0 !important;
+  min-height: 74px !important;
+  padding: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(53, 105, 168, 0.11) !important;
+  border-radius: 12px !important;
+  background: #f7fbff !important;
+}
+
+.flag-item img {
+  width: 44px !important;
+  min-width: 44px !important;
+  max-width: 44px !important;
+  height: 30px !important;
+  min-height: 30px !important;
+  max-height: 30px !important;
+  flex: 0 0 44px !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  border-radius: 3px !important;
+  background: #ffffff !important;
+  transform: none !important;
+}
+
+.flag-item > div {
+  min-width: 0 !important;
+}
+
+.flag-item strong {
+  display: block !important;
+  overflow-wrap: anywhere;
+  color: #163d6a !important;
+  font-size: 0.82rem !important;
+  line-height: 1.25 !important;
+}
+
+.flag-item small {
+  display: block !important;
+  margin-top: 3px !important;
+  overflow-wrap: anywhere;
+  color: #64798a !important;
+  font-size: 0.67rem !important;
+  line-height: 1.3 !important;
+}
+
+.globe-symbol {
+  width: 44px !important;
+  min-width: 44px !important;
+  max-width: 44px !important;
+  flex: 0 0 44px !important;
+  font-size: 1.65rem !important;
+  text-align: center !important;
+}
+
+/* Numbers should remain useful even before JavaScript animation. */
+
+.trust-item strong {
+  min-height: 25px;
+}
+
+/* Prevent oversized decorative images inside the hero. */
+
+.hero-panel img {
+  transform: none !important;
+}
+
+@media (max-width: 680px) {
+  .utility-inner {
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .utility-inner > span {
+    display: none;
+  }
+
+  .flag-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

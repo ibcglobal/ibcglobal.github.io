@@ -500,21 +500,18 @@ def nav_link(
 def header(active: str = "") -> str:
     return f"""
     <div class="utility-bar">
-      <div class="container utility-inner">
-        <span>
-          Education, career, visa and worldwide travel guidance
-        </span>
+  <div class="container utility-inner">
+    <span>
+      Education, career, visa and worldwide travel guidance
+    </span>
 
-        <div class="utility-links">
-          <a href="mailto:{EMAIL}">{EMAIL}</a>
-          <a href="tel:{PAKISTAN_PHONE_LINK}">
-            {PAKISTAN_PHONE}
-          </a>
-        </div>
-      </div>
-    </div>
+    <a class="utility-contact" href="/contact.html">
+      Contact our team
+    </a>
+  </div>
+</div>
 
-    <header class="site-header">
+<header class="site-header">
       <nav
         class="navbar container"
         aria-label="Main navigation"
@@ -810,6 +807,11 @@ def head(
     <link
       rel="stylesheet"
       href="/assets/styles.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="/assets/fixes.css"
     >
 
     <script
@@ -5409,7 +5411,8 @@ script = r"""
       hero.dataset.heroImages
         .split("|")
         .map((item) => item.trim())
-        .filter(Boolean);
+        .filter(Boolean)
+      .filter((source) => !source.toLowerCase().endsWith(".svg"));
 
     let currentIndex = 0;
 

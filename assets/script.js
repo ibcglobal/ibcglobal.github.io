@@ -63,7 +63,8 @@
       hero.dataset.heroImages
         .split("|")
         .map((item) => item.trim())
-        .filter(Boolean);
+        .filter(Boolean)
+      .filter((source) => !source.toLowerCase().endsWith(".svg"));
 
     let currentIndex = 0;
 
